@@ -35,7 +35,7 @@ class fun:
     @classmethod
     def create_README_file(self, f_name):
         '''
-        if os.path.exists(f_name):
+        if os.path.exists(f_name):menu driven
             print("Folder Alredy Created")
         else:
         '''
@@ -47,7 +47,7 @@ class fun:
             print("File not created!")
         
 
-
+'''
 print("1.Create Folder.\n2.Create README file.\n3.Delete Folder.\n4.Dircetory List.\n5.Change Dir.\n6.Exit.")
 print("Operating System Module : ", os.name)
 print("Current Working Directory: ", os.getcwd())
@@ -81,3 +81,4 @@ elif ch==4:
 else:
     exit
     print("System Closed")
+'''
